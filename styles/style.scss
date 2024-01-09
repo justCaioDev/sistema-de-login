@@ -126,3 +126,45 @@ a:hover{
     transition: color .3s;
 }
 
+.select{
+    user-select: none;
+}
+
+
+@media screen and (max-width:600px){
+    body{
+        background-image: url(medias/pexels-cottonbro-studio-4709286.jpg);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bg-login{
+        height: 700px;
+        overflow: auto;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #iemail{
+        margin-top: 40px;
+    }
+
+    #remember-me{
+        padding: 20px 10px;
+    }
+
+    .forgot-password{
+        padding: 0px 10px;
+    }
+
+    .havent-account{
+        font-size: 10px;
+    }
+
+    .bg-img{
+        display: none;
+    }
+}
