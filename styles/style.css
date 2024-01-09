@@ -199,6 +199,9 @@ a:hover {
     padding: 30px;
     height: 100%;
   }
+  body {
+    background-color: #A46A25;
+  }
   h1 {
     font-size: 20px;
   }
