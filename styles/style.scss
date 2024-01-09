@@ -153,11 +153,11 @@ a:hover{
     }
 
     #remember-me{
-        padding: 20px 10px;
+        padding: 20px 20px;
     }
 
     .forgot-password{
-        padding: 0px 10px;
+        padding: 0px 20px;
     }
 
     .havent-account{
@@ -166,5 +166,39 @@ a:hover{
 
     .bg-img{
         display: none;
+    }
+
+    .align{
+        padding: 30px;
+    }
+}
+
+
+@media screen and (orientation: landscape){
+    .bg-login{
+        height: 700px;
+    }
+
+    .align{
+        padding: 30px;
+        height: 100%;
+    }
+
+    body{
+        height: 1px;
+        background-color: #A46A25;
+        background-image: none;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #iemail{
+        margin-top: 40px;
+    }
+
+    button{
+        margin-top: 190px;
     }
 }
